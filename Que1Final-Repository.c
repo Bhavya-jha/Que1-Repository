@@ -21,7 +21,7 @@ void main()
                           seek+=difference;
                           printf("Move from %d to %d with Seek %d\n",q[y],q[y+1],difference);
              }
-             printf("\nTotal distance the disk arm moves %d\t",seek);
+             printf("\nTotal distance disk arm moves %d\t",seek);
              average=seek/(float)size;
              printf("\nAverage Seek Time is %f\t",average);
              getch();
