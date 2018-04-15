@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+main()
 {
              int q[100],size,head,x,y,seek=0,difference;
              float average;
@@ -24,7 +24,6 @@ void main()
              printf("\nTotal distance the disk arm moves %d\t",seek);
              average=seek/(float)size;
              printf("\nAverage Seek Time is %f\t",average);
-             getch();
 }
 
 
